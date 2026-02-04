@@ -79,7 +79,7 @@ async def start(bot: Client, msg: Message):
             [
                 [InlineKeyboardButton(text="⚡ Gᴇɴᴇʀᴀᴛᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ⚡", callback_data="generate")],
                 [
-                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/NeonFiles"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/Luna_Modex"),
                     InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data="about_btn")
                 ]
             ]
@@ -104,7 +104,7 @@ async def chk(bot: Client, cb: CallbackQuery):
             [
                 [InlineKeyboardButton(text="⚡ Gᴇɴᴇʀᴀᴛᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ⚡", callback_data="generate")],
                 [
-                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/NeonFiles"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/Luna_Modec"),
                     InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data="about_btn")
                 ]
             ]
@@ -120,7 +120,7 @@ async def about_page(bot: Client, cb: CallbackQuery):
     about_text = f"""<b><blockquote>‣ 📝 𝐌𝐘 𝐃𝐄𝐓𝐀𝐈𝐋𝐒</blockquote>
 <blockquote><i>• Mʏ Nᴀᴍᴇ : {me}
 • Mʏ Bᴇsᴛ Fʀɪᴇɴᴅ : <a href='tg://settings'>Tʜɪs Sᴡᴇᴇᴛɪᴇ ❤️</a> 
-• Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/MyselfNeon'>@MʏsᴇʟғNᴇᴏɴ</a> 
+• Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/RishuBotz_Bot'>Rishu Botz</a> 
 • Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a> 
 • Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 𝟹</a> 
 • DᴀᴛᴀBᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ DB</a> 
@@ -130,8 +130,8 @@ async def about_page(bot: Client, cb: CallbackQuery):
     about_buttons = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🔊", url="https://t.me/+o1s-8MppL2syYTI9"),
-                InlineKeyboardButton("Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 🚀", url="https://t.me/NeonSessionBot?start=Neon")
+                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🔊", url="https://t.me/Luna_Flix_Chat"),
+                InlineKeyboardButton("Owner 🚀", url="https://t.me/RishuBotz_Bot")
             ],
             [
                 InlineKeyboardButton("Cʟᴏsᴇ ❌", callback_data="close"),
@@ -151,12 +151,12 @@ async def about_page(bot: Client, cb: CallbackQuery):
 async def back_to_start(bot: Client, cb: CallbackQuery):
     me = (await bot.get_me()).mention
     await cb.message.edit_text(
-        f"""<b><i><blockquote>Yoo !! {cb.from_user.mention}</blockquote>\n<blockquote>🔑 I Am {me}\n🚀 Fast & Reliable Sessions\n🔒 Safe, Secure and Error-Free\n🧩 Your Ultimate STRING Generator !!\n\nCreated By @MyselfNeon 😎</i></b></blockquote>""",
+        f"""<b><i><blockquote>Yoo !! {cb.from_user.mention}</blockquote>\n<blockquote>🔑 I Am {me}\n🚀 Fast & Reliable Sessions\n🔒 Safe, Secure and Error-Free\n🧩 Your Ultimate STRING Generator !!\n\nCreated By @Luna_Modex 😎</i></b></blockquote>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton(text="⚡ Gᴇɴᴇʀᴀᴛᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ ⚡", callback_data="generate")],
                 [
-                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/NeonFiles"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ 🔥", url="https://t.me/Luna_Modex"),
                     InlineKeyboardButton("Aʙᴏᴜᴛ 😎", callback_data="about_btn")
                 ]
             ]
