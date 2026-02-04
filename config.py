@@ -19,16 +19,16 @@ API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Owner ID For Broadcasting 
-OWNER_ID = int(environ.get("OWNER_ID", "841851780")) # Owner Id or Admin Id
+OWNER_ID = int(environ.get("OWNER_ID", "6286894502")) # Owner Id or Admin Id
 
 # Give Your Force Subscribe Channel Id Below And Make Bot Admin With Full Right.
-F_SUB = environ.get("F_SUB", "-1002384933640")
+F_SUB = environ.get("F_SUB", "-1003001351178")
 
 # Mongodb Database Uri For User Data Store 
 MONGO_DB_URI = environ.get("MONGO_DB_URI", "")
 
 # Log channel ID for restart and new user logs
-LOG_CHANNEL = -1001889915480
+LOG_CHANNEL = -1002987928500
 
 # Port To Run Web Application 
 PORT = int(environ.get('PORT', 8080))
